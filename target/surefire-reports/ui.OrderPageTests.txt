@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ui.OrderPageTests
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 14.20 s <<< FAILURE! -- in ui.OrderPageTests
-ui.OrderPageTests.orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Клава Птичкина] -- Time elapsed: 4.392 s <<< FAILURE!
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 18.46 s <<< FAILURE! -- in ui.OrderPageTests
+ui.OrderPageTests.orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Виктория Солнцева] -- Time elapsed: 7.681 s <<< FAILURE!
 java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -48,7 +48,7 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-ui.OrderPageTests.orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Клава Птичкина] -- Time elapsed: 3.274 s <<< FAILURE!
+ui.OrderPageTests.orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Виктория Солнцева] -- Time elapsed: 3.366 s <<< FAILURE!
 java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -94,7 +94,7 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-ui.OrderPageTests.orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Иван Петров] -- Time elapsed: 3.299 s <<< FAILURE!
+ui.OrderPageTests.orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Иван Иванов] -- Time elapsed: 3.826 s <<< FAILURE!
 java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -140,7 +140,7 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 
-ui.OrderPageTests.orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Иван Петров] -- Time elapsed: 3.166 s <<< FAILURE!
+ui.OrderPageTests.orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Иван Иванов] -- Time elapsed: 3.515 s <<< FAILURE!
 java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"

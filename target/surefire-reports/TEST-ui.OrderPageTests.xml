@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ui.OrderPageTests" time="14.198" tests="4" errors="0" skipped="0" failures="4">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.2" name="ui.OrderPageTests" time="18.463" tests="4" errors="0" skipped="0" failures="4">
   <properties>
     <property name="gopherProxySet" value="false"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
@@ -16,7 +16,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/amazon-corretto-11.jdk/Contents/Home/lib"/>
-    <property name="sun.java.command" value="/Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire/surefirebooter-20250514224831802_3.jar /Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire 2025-05-14T22-48-31_688-jvmRun1 surefire-20250514224831802_1tmp surefire_0-20250514224831802_2tmp"/>
+    <property name="sun.java.command" value="/Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire/surefirebooter-20250517204557087_3.jar /Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire 2025-05-17T20-45-56_967-jvmRun1 surefire-20250517204557087_1tmp surefire_0-20250517204557087_2tmp"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/Users/andreygrishin/Desktop/Yandex_Samokat/target/test-classes:/Users/andreygrishin/Desktop/Yandex_Samokat/target/classes:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-java/4.21.0/selenium-java-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-api/4.21.0/selenium-api-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/4.21.0/selenium-chrome-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/com/google/auto/service/auto-service-annotations/1.1.1/auto-service-annotations-1.1.1.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-chromium-driver/4.21.0/selenium-chromium-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-json/4.21.0/selenium-json-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-manager/4.21.0/selenium-manager-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v123/4.21.0/selenium-devtools-v123-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v124/4.21.0/selenium-devtools-v124-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v125/4.21.0/selenium-devtools-v125-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-devtools-v85/4.21.0/selenium-devtools-v85-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-edge-driver/4.21.0/selenium-edge-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-firefox-driver/4.21.0/selenium-firefox-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-http/4.21.0/selenium-http-4.21.0.jar:/Users/andreygrishin/.m2/repository/dev/failsafe/failsafe/3.3.2/failsafe-3.3.2.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-ie-driver/4.21.0/selenium-ie-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-remote-driver/4.21.0/selenium-remote-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/com/google/guava/guava/33.2.0-jre/guava-33.2.0-jre.jar:/Users/andreygrishin/.m2/repository/com/google/guava/failureaccess/1.0.2/failureaccess-1.0.2.jar:/Users/andreygrishin/.m2/repository/com/google/guava/listenablefuture/9999.0-empty-to-avoid-conflict-with-guava/listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar:/Users/andreygrishin/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar:/Users/andreygrishin/.m2/repository/org/checkerframework/checker-qual/3.42.0/checker-qual-3.42.0.jar:/Users/andreygrishin/.m2/repository/com/google/errorprone/error_prone_annotations/2.26.1/error_prone_annotations-2.26.1.jar:/Users/andreygrishin/.m2/repository/com/google/j2objc/j2objc-annotations/3.0.0/j2objc-annotations-3.0.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/semconv/opentelemetry-semconv/1.25.0-alpha/opentelemetry-semconv-1.25.0-alpha.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-api/1.38.0/opentelemetry-api-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-context/1.38.0/opentelemetry-context-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-exporter-logging/1.38.0/opentelemetry-exporter-logging-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-common/1.38.0/opentelemetry-sdk-common-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure-spi/1.38.0/opentelemetry-sdk-extension-autoconfigure-spi-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-extension-autoconfigure/1.38.0/opentelemetry-sdk-extension-autoconfigure-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-api-incubator/1.38.0-alpha/opentelemetry-api-incubator-1.38.0-alpha.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-trace/1.38.0/opentelemetry-sdk-trace-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk/1.38.0/opentelemetry-sdk-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-metrics/1.38.0/opentelemetry-sdk-metrics-1.38.0.jar:/Users/andreygrishin/.m2/repository/io/opentelemetry/opentelemetry-sdk-logs/1.38.0/opentelemetry-sdk-logs-1.38.0.jar:/Users/andreygrishin/.m2/repository/net/bytebuddy/byte-buddy/1.14.15/byte-buddy-1.14.15.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-os/4.21.0/selenium-os-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-safari-driver/4.21.0/selenium-safari-driver-4.21.0.jar:/Users/andreygrishin/.m2/repository/org/seleniumhq/selenium/selenium-support/4.21.0/selenium-support-4.21.0.jar:/Users/andreygrishin/.m2/repository/io/github/bonigarcia/webdrivermanager/5.8.0/webdrivermanager-5.8.0.jar:/Users/andreygrishin/.m2/repository/com/google/code/gson/gson/2.10.1/gson-2.10.1.jar:/Users/andreygrishin/.m2/repository/com/github/docker-java/docker-java/3.3.6/docker-java-3.3.6.jar:/Users/andreygrishin/.m2/repository/com/github/docker-java/docker-java-core/3.3.6/docker-java-core-3.3.6.jar:/Users/andreygrishin/.m2/repository/com/github/docker-java/docker-java-api/3.3.6/docker-java-api-3.3.6.jar:/Users/andreygrishin/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.10.3/jackson-annotations-2.10.3.jar:/Users/andreygrishin/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.10.3/jackson-databind-2.10.3.jar:/Users/andreygrishin/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.10.3/jackson-core-2.10.3.jar:/Users/andreygrishin/.m2/repository/org/bouncycastle/bcpkix-jdk18on/1.76/bcpkix-jdk18on-1.76.jar:/Users/andreygrishin/.m2/repository/org/bouncycastle/bcprov-jdk18on/1.76/bcprov-jdk18on-1.76.jar:/Users/andreygrishin/.m2/repository/org/bouncycastle/bcutil-jdk18on/1.76/bcutil-jdk18on-1.76.jar:/Users/andreygrishin/.m2/repository/org/slf4j/jcl-over-slf4j/1.7.30/jcl-over-slf4j-1.7.30.jar:/Users/andreygrishin/.m2/repository/com/github/docker-java/docker-java-transport-httpclient5/3.3.6/docker-java-transport-httpclient5-3.3.6.jar:/Users/andreygrishin/.m2/repository/com/github/docker-java/docker-java-transport/3.3.6/docker-java-transport-3.3.6.jar:/Users/andreygrishin/.m2/repository/net/java/dev/jna/jna/5.13.0/jna-5.13.0.jar:/Users/andreygrishin/.m2/repository/org/brotli/dec/0.1.2/dec-0.1.2.jar:/Users/andreygrishin/.m2/repository/org/apache/commons/commons-lang3/3.14.0/commons-lang3-3.14.0.jar:/Users/andreygrishin/.m2/repository/org/apache/commons/commons-compress/1.26.1/commons-compress-1.26.1.jar:/Users/andreygrishin/.m2/repository/commons-codec/commons-codec/1.16.1/commons-codec-1.16.1.jar:/Users/andreygrishin/.m2/repository/commons-io/commons-io/2.15.1/commons-io-2.15.1.jar:/Users/andreygrishin/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.2.1/httpclient5-5.2.1.jar:/Users/andreygrishin/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.2/httpcore5-5.2.jar:/Users/andreygrishin/.m2/repository/org/apache/httpcomponents/core5/httpcore5-h2/5.2/httpcore5-h2-5.2.jar:/Users/andreygrishin/.m2/repository/junit/junit/4.13.2/junit-4.13.2.jar:/Users/andreygrishin/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/andreygrishin/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/andreygrishin/.m2/repository/org/slf4j/slf4j-api/2.0.13/slf4j-api-2.0.13.jar:/Users/andreygrishin/.m2/repository/org/slf4j/slf4j-simple/2.0.13/slf4j-simple-2.0.13.jar:"/>
@@ -33,7 +33,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire/surefirebooter-20250514224831802_3.jar"/>
+    <property name="surefire.real.class.path" value="/Users/andreygrishin/Desktop/Yandex_Samokat/target/surefire/surefirebooter-20250517204557087_3.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.runtime.version" value="11.0.26+4-LTS"/>
@@ -62,7 +62,7 @@
     <property name="java.class.version" value="55.0"/>
     <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
   </properties>
-  <testcase name="orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Клава Птичкина]" classname="ui.OrderPageTests" time="4.392">
+  <testcase name="orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Виктория Солнцева]" classname="ui.OrderPageTests" time="7.681">
     <failure message="Не отобразилось сообщение об успешном заказе&#10;Expected: a string containing &quot;Заказ оформлен&quot;&#10;     but: was &quot;Хотите оформить заказ?&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -108,26 +108,25 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[Введено имя: Клава
-Введена фамилия: Птичкина
-Введен адрес: Москва, ул. Дорожная, д. 12, кв. 34
-Выбрана станция метро: Сокол
-Введен телефон: 81234567890
+    <system-out><![CDATA[Введено имя: Виктория
+Введена фамилия: Солнцева
+Введен адрес: Москва, ул. Прямая, д. 11, кв. 43
+Введен телефон: 89476543211
 Нажата кнопка 'Далее'
-Введена дата доставки: 01.05.2023
+Введена дата доставки: 04.09.2025
 Выбран цвет: чёрный жемчуг
 Введен комментарий: Коммент!
 Кнопка 'Да' успешно нажата
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/andreygrishin/.cache/selenium/chromedriver/mac64/136.0.7103.94/chromedriver
-мая 14, 2025 10:48:34 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 17, 2025 8:46:01 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 136
-мая 14, 2025 10:48:34 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 17, 2025 8:46:01 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Клава Птичкина]" classname="ui.OrderPageTests" time="3.274">
+  <testcase name="orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Виктория Солнцева]" classname="ui.OrderPageTests" time="3.366">
     <failure message="Не отобразилось сообщение об успешном заказе&#10;Expected: a string containing &quot;Заказ оформлен&quot;&#10;     but: was &quot;Хотите оформить заказ?&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -173,26 +172,25 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:507)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
-    <system-out><![CDATA[Введено имя: Клава
-Введена фамилия: Птичкина
-Введен адрес: Москва, ул. Дорожная, д. 12, кв. 34
-Выбрана станция метро: Сокол
-Введен телефон: 81234567890
+    <system-out><![CDATA[Введено имя: Виктория
+Введена фамилия: Солнцева
+Введен адрес: Москва, ул. Прямая, д. 11, кв. 43
+Введен телефон: 89476543211
 Нажата кнопка 'Далее'
-Введена дата доставки: 01.05.2023
+Введена дата доставки: 04.09.2025
 Выбран цвет: чёрный жемчуг
 Введен комментарий: Коммент!
 Кнопка 'Да' успешно нажата
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/andreygrishin/.cache/selenium/chromedriver/mac64/136.0.7103.94/chromedriver
-мая 14, 2025 10:48:37 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 17, 2025 8:46:06 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 136
-мая 14, 2025 10:48:37 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 17, 2025 8:46:06 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Иван Петров]" classname="ui.OrderPageTests" time="3.299">
+  <testcase name="orderWithHeaderButtonWhenSuccess[Оформление заказа. Пользователь: Иван Иванов]" classname="ui.OrderPageTests" time="3.826">
     <failure message="Не отобразилось сообщение об успешном заказе&#10;Expected: a string containing &quot;Заказ оформлен&quot;&#10;     but: was &quot;Хотите оформить заказ?&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -239,25 +237,24 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[Введено имя: Иван
-Введена фамилия: Петров
-Введен адрес: Москва, ул. Скобелевская, д. 26, кв. 1
-Выбрана станция метро: Улица Скобелевская
-Введен телефон: 89876543210
+Введена фамилия: Иванов
+Введен адрес: Москва, ул. Летняя, д. 62, кв. 9
+Введен телефон: 89657833224
 Нажата кнопка 'Далее'
-Введена дата доставки: 21.05.2023
+Введена дата доставки: 19.03.2025
 Выбран цвет: серая безысходность
 Введен комментарий: Привезите утром
 Кнопка 'Да' успешно нажата
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/andreygrishin/.cache/selenium/chromedriver/mac64/136.0.7103.94/chromedriver
-мая 14, 2025 10:48:40 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 17, 2025 8:46:09 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 136
-мая 14, 2025 10:48:40 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 17, 2025 8:46:09 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
-  <testcase name="orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Иван Петров]" classname="ui.OrderPageTests" time="3.166">
+  <testcase name="orderWithBodyButtonWhenSuccess[Оформление заказа. Пользователь: Иван Иванов]" classname="ui.OrderPageTests" time="3.515">
     <failure message="Не отобразилось сообщение об успешном заказе&#10;Expected: a string containing &quot;Заказ оформлен&quot;&#10;     but: was &quot;Хотите оформить заказ?&quot;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: 
 Не отобразилось сообщение об успешном заказе
 Expected: a string containing "Заказ оформлен"
@@ -304,22 +301,21 @@ Expected: a string containing "Заказ оформлен"
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:495)
 ]]></failure>
     <system-out><![CDATA[Введено имя: Иван
-Введена фамилия: Петров
-Введен адрес: Москва, ул. Скобелевская, д. 26, кв. 1
-Выбрана станция метро: Улица Скобелевская
-Введен телефон: 89876543210
+Введена фамилия: Иванов
+Введен адрес: Москва, ул. Летняя, д. 62, кв. 9
+Введен телефон: 89657833224
 Нажата кнопка 'Далее'
-Введена дата доставки: 21.05.2023
+Введена дата доставки: 19.03.2025
 Выбран цвет: серая безысходность
 Введен комментарий: Привезите утром
 Кнопка 'Да' успешно нажата
 ]]></system-out>
     <system-err><![CDATA[[main] INFO io.github.bonigarcia.wdm.WebDriverManager - Using chromedriver 136.0.7103.94 (resolved driver for Chrome 136)
 [main] INFO io.github.bonigarcia.wdm.WebDriverManager - Exporting webdriver.chrome.driver as /Users/andreygrishin/.cache/selenium/chromedriver/mac64/136.0.7103.94/chromedriver
-мая 14, 2025 10:48:44 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+мая 17, 2025 8:46:13 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
 WARNING: Unable to find CDP implementation matching 136
-мая 14, 2025 10:48:44 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
-WARNING: Unable to find version of CDP to use for 136.0.7103.113. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+мая 17, 2025 8:46:13 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$5
+WARNING: Unable to find version of CDP to use for 136.0.7103.114. You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.21.0` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
 ]]></system-err>
   </testcase>
 </testsuite>

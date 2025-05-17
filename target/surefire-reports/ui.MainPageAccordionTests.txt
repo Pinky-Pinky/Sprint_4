@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ui.MainPageAccordionTests
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.42 s <<< FAILURE! -- in ui.MainPageAccordionTests
-ui.MainPageAccordionTests.checkAccordionIsCorrect[Текст в блоке "Вопросы о важном". Проверяемый элемент: Я живу за МКАДом, привезёте?] -- Time elapsed: 1.963 s <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 16.85 s <<< FAILURE! -- in ui.MainPageAccordionTests
+ui.MainPageAccordionTests.checkAccordionIsCorrect[Текст в блоке "Вопросы о важном". Проверяемый элемент: Я живу за МКАДом, привезёте?] -- Time elapsed: 2.141 s <<< FAILURE!
 java.lang.AssertionError: 
 Неверный текст в заголовке
 Expected: "Я живу за МКАДом, привезёте?"

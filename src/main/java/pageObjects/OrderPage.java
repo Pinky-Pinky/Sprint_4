@@ -12,6 +12,11 @@ public class OrderPage {
     private final WebDriver driver;
     private final WebDriverWait wait;
 
+    // Локаторы элементов
+    private static final String STATION_LOCATOR_TEMPLATE = "//div[normalize-space(text())='%s']";
+    private static final By MODAL_WINDOW_LOCATOR = By.xpath("//div[contains(@class, 'Order_Modal__YZ-d3')]");
+    private static final By DROPDOWN_OPTION_LOCATOR = By.className("Dropdown-option");
+
     // Элементы первой страницы
     @FindBy(css = "[placeholder='* Имя']")
     private WebElement nameInput;
@@ -78,12 +83,14 @@ public class OrderPage {
 
     public void selectMetroStation(String station) {
         metroInput.sendKeys(station);
-        WebElement stationElement = wait.until(ExpectedConditions.elementToBeClickable(
-                By.xpath("//div[normalize-space(text())='" + station + "']")
-        ));
-        ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView(true);", stationElement);
+
+        // Формируем локатор с использованием шаблона
+        String locator = String.format(STATION_LOCATOR_TEMPLATE, station);
+
+        WebElement stationElement = wait.until(
+                ExpectedConditions.elementToBeClickable(By.xpath(locator))
+        );
         stationElement.click();
-        System.out.println("Выбрана станция метро: " + station);
     }
 
     public void setPhone(String phone) {
