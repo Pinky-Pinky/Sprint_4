@@ -1,4 +1,4 @@
-package pageObjects;
+package ru.yandex.praktikum.ui.pages;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.support.FindBy;
@@ -9,6 +9,13 @@ import java.time.Duration;
 import java.util.List;
 
 public class OrderPage {
+    // Локаторы элементов
+    private static final By MODAL_WINDOW_LOCATOR = By.xpath("//div[contains(@class, 'Order_Modal__YZ-d3')]");
+    private static final String STATION_LOCATOR_TEMPLATE = "//div[normalize-space(text())='%s']";
+    private static final By DROPDOWN_OPTION_LOCATOR = By.className("Dropdown-option");
+    private static final String RENTAL_PERIOD_LOCATOR_TEMPLATE =
+            "//div[contains(@class, 'Dropdown-option') and normalize-space(text())='%s']";
+
     private final WebDriver driver;
     private final WebDriverWait wait;
 
@@ -84,12 +91,16 @@ public class OrderPage {
     public void selectMetroStation(String station) {
         metroInput.sendKeys(station);
 
+<<<<<<< HEAD:src/main/java/pageObjects/OrderPage.java
         // Формируем локатор с использованием шаблона
         String locator = String.format(STATION_LOCATOR_TEMPLATE, station);
 
         WebElement stationElement = wait.until(
                 ExpectedConditions.elementToBeClickable(By.xpath(locator))
+
+
         );
+
         stationElement.click();
     }
 
@@ -124,10 +135,10 @@ public class OrderPage {
         WebElement dropdown = wait.until(ExpectedConditions.elementToBeClickable(periodDropdown));
         dropdown.click();
 
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.className("Dropdown-option")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(DROPDOWN_OPTION_LOCATOR));
 
-        String xpath = "//div[contains(@class, 'Dropdown-option') and normalize-space(text())='" + period + "']";
-        WebElement option = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(xpath)));
+        String locator = String.format(RENTAL_PERIOD_LOCATOR_TEMPLATE, period);
+        WebElement option = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(locator)));
         option.click();
     }
 
@@ -156,8 +167,7 @@ public class OrderPage {
         ((JavascriptExecutor) driver).executeScript("arguments[0].scrollIntoView({block: 'center'});", button);
         ((JavascriptExecutor) driver).executeScript("arguments[0].click();", button);
 
-        // Ожидаем появление модального окна
-        wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(@class, 'Order_Modal__YZ-d3')]")));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(MODAL_WINDOW_LOCATOR));
     }
 
     public void clickConfirmButton() {

@@ -1,2 +1,2 @@
-pageObjects/MainPage.class
-pageObjects/OrderPage.class
+ru/yandex/praktikum/ui/pages/OrderPage.class
+ru/yandex/praktikum/ui/pages/MainPage.class

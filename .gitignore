@@ -1,9 +1,21 @@
-# Игнорируем настройки IDE
-.idea/
+# Java
+*.class
+*.jar
+*.war
+*.ear
 *.iml
 
-# Игнорируем артефакты сборки
+# Maven
 target/
+.mvn/
+mvnw
+mvnw.cmd
+
+# IDE
+.idea/
+*.ipr
+*.iws
+*.iml
 
 # Логи и временные файлы
 *.log

@@ -12,8 +12,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import pageObjects.MainPage;
-import pageObjects.OrderPage;
+import ru.yandex.praktikum.ui.pages.MainPage;
+import ru.yandex.praktikum.ui.pages.OrderPage;
 
 import java.time.Duration;
 
@@ -95,7 +95,7 @@ public class OrderPageTests {
     }
 
     @Test
-    public void orderWithHeaderButtonWhenSuccess() {
+    public void orderWithHeaderButtonWhenSuccessTest() {
         MainPage mainPage = new MainPage(webDriver);
         OrderPage orderPage = new OrderPage(webDriver);
 
@@ -111,7 +111,7 @@ public class OrderPageTests {
     }
 
     @Test
-    public void orderWithBodyButtonWhenSuccess() {
+    public void orderWithBodyButtonWhenSuccessTest() {
         MainPage mainPage = new MainPage(webDriver);
         OrderPage orderPage = new OrderPage(webDriver);
 
